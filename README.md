@@ -1,15 +1,15 @@
 # Cardiomyocyte Maturation scRNA-seq Analysis
 
-This project analyzes published neonatal mouse heart scRNA-seq and snRNA-seq
-data from the Sham control group across four developmental timepoints
-(D2, D4, D9, and D11) to investigate transcriptional changes and intercellular
-communication during cardiomyocyte (CM) maturation.
+This project analyzes published neonatal mouse heart scRNA-seq and snRNA-seq data 
+to investigate changes in cardiomyocytes (CMs) during maturation from day 2 to day 11 
+of neonatal life, focusing on **transcriptional changes** and **intercellular communication**
+between CMs and other cardiac cell types.
 
 The analysis workflow is implemented in **RStudio** using **Seurat**, **clusterProfiler**,
 **ReactomePA**, and **CellChat**.
 
 <p align="center">
-  <img src="Report/Workflow.png" alt="Analysis workflow" width="800">
+  <img src="Report/Workflow.png" width="800">
 </p>
 
 <p align="center">
