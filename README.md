@@ -16,6 +16,25 @@ The analysis workflow is implemented in **RStudio** using **Seurat**, **clusterP
   The data analysis pipeline and libraries used in this study.
 </p>
 
+### Data
+
+The data were obtained from the **Sham control group** of neonatal mice. Mice underwent
+Sham surgery at **postnatal day 1 (P1)** or **postnatal day 8 (P8)**, and ventricular
+cells were collected at **1 and 3 days after surgery**.
+
+Both **scRNA-seq** of non-cardiomyocytes and **snRNA-seq** of cardiomyocytes were
+performed. This analysis included four neonatal timepoints from the Sham group:
+
+| Timepoint | Experimental condition |
+|---|---|
+| **D2** | P1 + 1 day after Sham surgery |
+| **D4** | P1 + 3 days after Sham surgery |
+| **D9** | P8 + 1 day after Sham surgery |
+| **D11** | P8 + 3 days after Sham surgery |
+
+The dataset is publicly available through the
+[**NCBI Gene Expression Omnibus (GEO)**](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153480).
+
 ### Project Report
 
 The complete project report is available
